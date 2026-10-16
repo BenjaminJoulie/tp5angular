@@ -1,0 +1,11 @@
+<h2>Détails de l'activité n°{{ index }}</h2>
+
+@if (modeEdition) {
+  <input type="text" [(ngModel)]="titre">
+  <button (click)="sauvegarder()">Sauvegarder</button>
+} @else {
+  <p>Titre : {{ titre }}</p>
+  <button (click)="editer()">Modifier</button>
+}
+
+<button (click)="supprimeElem(index)">Supprimer</button>

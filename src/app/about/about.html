@@ -1,0 +1,8 @@
+<p>Bonjour depuis about: {{ name }} !</p>
+
+<h3>Liste des activités ({{ activiteService.objectifs.length }})</h3>
+<ul>
+  @for (objectif of activiteService.objectifs; track objectif) {
+    <li>{{ objectif }}</li>
+  }
+</ul>
