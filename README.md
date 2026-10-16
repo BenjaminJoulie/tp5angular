@@ -8,3 +8,5 @@ Lancer le projet :
 npm install
 ng serve
 ```
+
+Version en ligne : https://benjaminjoulie.github.io/tp5angular/
